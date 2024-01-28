@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "match_url": "https://www.espncricinfo.com/series/india-in-australia-2020-21-1223867/australia-vs-india-4th-test-1223872/ball-by-ball-commentary",
+    "batting": "IND",
+    "bowling": "AUS",
+    "format": "TEST",
+    "inning": 4
+  },
+  "over_data": {
+    "over_number": 96,
+    "commentary": [
+      {
+        "ball": 96.6,
+        "event": "4",
+        "text": "Hazlewood to Pant, FOUR runs\nFull, angling across to off stump, and he\u0027s creamed that to the long-off boundary! To repeat the words of Tony Greig from 20 years ago, India have won the Test match, India have won the series, and this series has been as much of a fairytale as that one. Let me describe briefly. There was no mid-off, just a straight extra-cover, and Pant brought his wrists into play to drive that full one to the left of the fielder. He kept running, Saini kept running, and I guess no one realised there was no fielder near the ball until it dribbled past the rope\n"
+      },
+      {
+        "ball": 96.5,
+        "event": ".",
+        "text": "Hazlewood to Pant, no run\nFull, wide of leg stump, looks for the one-arm sweep and misses. Good use of the negative line from Hazlewood"
+      },
+      {
+        "ball": 96.4,
+        "event": "W",
+        "text": "Hazlewood to Thakur, OUT\nNow Thakur lobs one straight in the air. This one falls into square leg\u0027s hands, though. India still need 3, and they have three wickets left. Back of a length, angling into off stump, and Thakur looks to work it across the line, only manages a leading edge\n",
+        "additional_text": "Shardul Thakur c Lyon b Hazlewood 2 (3b 0x4 0x6 5m) SR: 66.66\n"
+      },
+      {
+        "ball": 96.3,
+        "event": "2",
+        "text": "Hazlewood to Thakur, 2 runs\nBack of a length, angles into the pads, clips it away to long leg. The fielder didn\u0027t have too much room to cover to his left, but they sprint two anyway. Tired legs all over the field now\n",
+        "additional_text": "Over the wicket to Thakur. Two slips and a gully."
+      },
+      {
+        "ball": 96.2,
+        "event": "1",
+        "text": "Hazlewood to Pant, 1 run\nSix to win, goes for the glory hit. Fullish, angling into off stump, looks to slog it over midwicket, and ends up slicing it high over the backward point region. Ends up landing away from both deep point rushing in and cover running to his right. It\u0027s Pant\u0027s day\n",
+        "additional_text": ""
+      },
+      {
+        "ball": 96.1,
+        "event": "4",
+        "text": "Hazlewood to Pant, FOUR runs\nShort, angling down leg, and Pant swivels to pull and find the gap to the right of long leg. He falls onto his backside while doing so as well. He\u0027s played the falling scoop, now he\u0027s played the falling pull, and he\u0027s nailing everything out of the middle\n",
+        "additional_text": "Hazlewood, around the wicket."
+      }
+    ]
+  }
+}
