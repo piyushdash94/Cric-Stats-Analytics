@@ -25,6 +25,8 @@ Cric-Stats-Analytics
 |   |--final_analysis/    # final analysis including regression/modelling
 |
 |--main.py              # entry-point into codebase
+|
+|--tests/              
 |--README.md        
 |--.gitignore
 |--pyproject.toml
@@ -54,3 +56,33 @@ python main.py
 ```
 
 # Background information
+
+## Data for analysis
+We use some data manually scrapped from [espncricinfo](www.espncricinfo.com) website to do initial analysis and POC.
+Data should be in .json format, refer sample json file in data folder.
+
+## Scope of analysis
+* sentiment analysis using commentary text of each ball. 
+* additional models to include state of play using scorecard before each ball
+* Match up between bowler and batter using custom ranking
+
+## Limitations
+* Ground, pitch, weather conditions are not taken into account. Analysis presumes _ideal_ and consistent conditions throughout the duration of the match. So analysis will be better for shorter formats.
+
+
+## Todos
+
+### Data
+- [ ] add more raw-data
+
+### Logic/Analytics
+- [ ] come up with attributes to parse data from each ball
+  - [ ] player attributes
+  - [ ] match-situation attributes
+  - [ ] event attributes
+- [ ] come up with metrics to gauge events for each ball
+- [ ] come up with metrics to rate player performance from each ball/over
+
+
+### Ops
+* [ ] add pre-commit-hooks for automated linting

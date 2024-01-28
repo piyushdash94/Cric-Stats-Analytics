@@ -15,9 +15,9 @@ def get_raw_data_from_json(file_path: str) -> dict:
     return data
 
 
-def prepare_data(file_path: str) -> RawCommentaryData:
+def extract_data(file_path: str) -> RawCommentaryData:
     """
-    Prepare raw commentary data in json file to custom RawCommentaryData data-model
+    Extract raw commentary data in json file and parse as custom RawCommentaryData data-model
     :param file_path: str path to json
     :return: data in RawCommentaryData model
     """
