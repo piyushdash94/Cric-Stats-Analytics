@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cric-stats-analytics"
+version = "0.1.0"
+description = "analytics on cricket stats using NLP on live-commentary data"
+authors = ["Piyush Dash <piyushdash94@gmail.com>"]
+license = "proprietary, Piyush Dash"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+pydantic = "^2.5.3"
+pytest = "^8.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
