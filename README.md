@@ -55,6 +55,20 @@ poetry install
 python main.py
 ```
 
+## Scorecard analysis
+The project includes utilities to build a scorecard from the raw commentary data.
+
+```python
+from src.extract_data import extract_data
+from src.scorecard_analysis import compute_scorecard, plot_scorecard
+
+data = extract_data("data/ind_inning4_over96_aus_vs_ind_gabba_test.json")
+df = compute_scorecard(data)
+plot_scorecard(df, save_path="scorecard.png")
+```
+
+You can try the interactive workflow in `notebooks/scorecard_visualisation.ipynb`.
+
 # Background information
 
 ## Data for analysis
